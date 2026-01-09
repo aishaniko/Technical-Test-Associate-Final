@@ -54,8 +54,11 @@ Unit testing is made simple by the redesigned structure:
 - **Changing RAG workflow**: Modify `RAGService` without affecting the API layer
 - **Scaling the application** If necessary, each layer can be resized separately.
 
-### 4. Production Readiness: Appropriate error handling at every layer; dependency injection for configuration management; and clear separation for monitoring and logging at the right levels
-Environment-specific setting is centralized (e.g., Qdrant vs. in-memory).
+### 4. Production Readiness
+- Appropriate error handling at every layer
+- Dependency injection for configuration management
+- Clear separation for monitoring and logging at the right levels
+- Environment-specific setting is centralized (e.g., Qdrant vs. in-memory).
 
 ## Maintained Conduct
 It retains all of its original functionality:
